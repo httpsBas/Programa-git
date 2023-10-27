@@ -1,0 +1,325 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 2px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(70% - 20px);
+
+	margin-top: 12px;
+
+    border-color: rgb(2, 48, 199);
+	
+}
+
+
+
+#c1{
+
+	margin-bottom: 30px;
+	padding: 50px 20px;
+	background-color: #ffffff;
+	margin-top: 70px;
+	width: 600px;
+	height: 650px;
+	margin-left:315px;
+	margin-right: auto;
+    text-align: center;
+    border-radius: 7px;
+    border: 3px solid #e6e6e6;
+    box-shadow: 0.2em 0.2em #b3b3b3;	
+}
+
+
+
+#c11{
+	padding-top: 28px;
+	margin-bottom: 30px;
+	padding: 50px 20px;
+	background-color: #8f2acf;
+	margin-top: -791px;
+	width: 610px;
+	height: 660px;
+	margin-left: 950px;
+	margin-right: auto;
+    text-align: center;
+    border-radius: 7px;
+    border: 3px solid #8126ba;
+    box-shadow: 0.2em 0.2em #481568;
+	
+}
+
+#c2{
+	padding: 50px 20px;
+	background-color: #ffffff6b;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+#c3{
+	padding: 50px 20px;
+	background-color: #ffffff6b;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+#b1{
+
+	background-image: url(../img/fondo1.jpg);
+    background-size: 1920px 1080px;
+    backdrop-filter: blur(10px);
+}
+
+#b2{
+
+	background-image: url(../img/fondo.jpg);
+  
+}
+
+#b3{
+
+	background-image: url(../img/fondo2.jpg);
+}
+
+#bh1 {
+	border-radius: 20px;
+	border: 0.1px solid transparent;
+	background: linear-gradient(to left, #ab76d7, #b49adb); 
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 160px;
+	width:500px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	cursor: pointer;
+}
+
+button:active {
+
+	transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:link,
+button:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+
+.t1{
+	color: transparent;
+	background-image: repeating-linear-gradient(to left, #0084ff, #7c68ee, #345bdb, #2e85cc, #003cff);
+	 -webkit-background-clip: text;
+	  background-clip: text;   
+	animation: color 10s linear infinite; 
+	background-size: 200%;  
+	font-size: 80px;
+  }
+  
+  @keyframes color {
+	from { 
+	  background-position: 0% 50%;
+	}
+	to { 
+	  background-position: 100% 50%; 
+	}
+  }
+
+
+
+.t2{
+	color: transparent;
+	background-color: #b9a6dd;
+	background-image: repeating-linear-gradient(45deg,    transparent, transparent 25px,        rgb(193, 174, 196) 25px, rgb(236, 232, 246, 1) 50px);
+	 -webkit-background-clip: text;
+	  background-clip: text;   
+	animation: color 50s linear infinite; 
+	background-size: 200%;  
+	font-size: 80px;
+}
+@keyframes color {
+	from { 
+	  background-position: 0% 50%;
+	}
+	to { 
+	  background-position: 100% 50%; 
+	}
+  }
+
+  .t3{
+	color: transparent;
+	background-color: #4e4226;
+	background-image: repeating-linear-gradient(45deg,    transparent, transparent 25px,        rgb(124,107,66) 25px, rgb(124,107,66) 50px);
+	 -webkit-background-clip: text;
+	  background-clip: text;   
+	animation: color 50s linear infinite; 
+	background-size: 200%;  
+	font-size: 80px;
+}
+@keyframes color {
+	from { 
+	  background-position: 0% 50%;
+	}
+	to { 
+	  background-position: 100% 50%; 
+	}
+  }
+
+  
+  #bt1{
+	border-radius: 20px;
+	border: 3px solid #7a8813;
+	background: linear-gradient(to left, #5b650e, #a5b819); 
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 50px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	cursor: pointer;
+	margin-left: 5px;
+  }
+
+  #bt2{
+	border-radius: 20px;
+	border: 3px solid #7a8813;
+	background: linear-gradient(to left, #5b650e, #a5b819); 
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 50px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	cursor: pointer;
+	margin-left: 200px;
+  }
+
+  #bt3{
+	border-radius: 20px;
+	border: 3px solid #7a8813;
+	background: linear-gradient(to left, #5b650e, #a5b819); 
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 50px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	cursor: pointer;
+	margin-left: 5px;
+  }
+
+  #bt4{
+	border-radius: 20px;
+	border: 3px solid #7a8813;
+	background: linear-gradient(to left, #5b650e, #a5b819); 
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 50px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	cursor: pointer;
+	margin-left: 200px;
+  }
+
+
+
+  .box .inputBox {
+    position: relative;
+  }
+  
+  .box .inputBox input {
+    width:88%;
+    padding: 1rem 10px;
+    font-size: 1rem;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 4px;
+    
+  }
+  
+  .box .inputBox label {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: white;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+    top: -1.100rem;
+    left: 35px;
+    color: #481568;
+    font-size: 1rem;
+    background-color:#8f2acf;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .box .inputBox input:focus {
+    outline: none;
+    border: 2px solid #570888;
+  }
+
+.box .inputBox i{
+
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-90%);
+    font-size: 40px;
+	color: #f8f8f8;
+}
+
+#p1{
+
+	text-align: left;
+}
+
+
+
+
